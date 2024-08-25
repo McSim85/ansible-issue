@@ -1,5 +1,4 @@
 ---
-# Playbook to run a build pipeline using DroneCI
 - name: Reproduce the issue
   hosts: localhost
   roles:
