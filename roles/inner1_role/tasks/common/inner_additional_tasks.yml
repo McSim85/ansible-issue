@@ -1,0 +1,4 @@
+---
+- name: Debug inner additional tasks yml
+  ansible.builtin.debug:
+    msg: "Inner additional tasks yml"

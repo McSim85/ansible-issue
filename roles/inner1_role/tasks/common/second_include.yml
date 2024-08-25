@@ -1,0 +1,7 @@
+---
+- name: Debug additional tasks yml
+  ansible.builtin.debug:
+    msg: "second_include.yml"
+
+- name: Import inner additional tasks
+  ansible.builtin.import_tasks: tasks/common/inner_additional_tasks.yml
