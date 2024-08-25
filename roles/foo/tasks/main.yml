@@ -3,5 +3,5 @@
   ansible.builtin.debug:
     msg: "Hello from the inner role."
 
-- name: First import
-  ansible.builtin.import_tasks: "first-import.yml"
+- name: First include
+  ansible.builtin.include_tasks: "first-include.yml"
