@@ -3,8 +3,8 @@
 - name: Reproduce the issue
   hosts: localhost
   roles:
-    - role: inner1_role
+    - role: foo
   tasks:
     - name: Import the inner role
       ansible.builtin.include_role:
-        name: inner1_role
+        name: foo
