@@ -1,7 +1,7 @@
 ---
 - name: Debug this task
   ansible.builtin.debug:
-    msg: "Current task file is: first-import.yml"
+    msg: "Current task file is: first-include.yml"
 
 - name: Second import
   ansible.builtin.import_tasks: second_import.yml
